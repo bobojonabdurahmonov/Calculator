@@ -1,0 +1,67 @@
+body {
+    align-items: center;
+}
+
+.container {
+    padding: 10px;
+    border: 1px solid black;
+    width: 900px;
+    height: 400px;
+    background-color: aqua;
+    margin: 200px;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+.input {
+   margin: 5px;
+   width: 100px;
+   padding: 10px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.num {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 5px;
+    border: none;
+    background-color: bisque;
+    margin-top: 3px;
+}
+
+.result {
+    padding: 10px;
+    text-align:center;
+}
+
+.numbers {
+    width: 200px;
+}
+
+.number1, .num {
+    margin-top: 10px;
+}
+
+.arithmetics {
+    display: flex;
+    flex-direction: column;
+}
